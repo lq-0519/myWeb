@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@10.211.55.7">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>10.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="SSM">
+      <ObjectId>62</ObjectId>
+      <IntrospectionTimestamp>2020-06-10.03:49:54</IntrospectionTimestamp>
+      <CreatedTimestamp>2020-06-04.02:35:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-10.03:49:46</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>19</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="TSMSYS">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="WMSYS">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="EXFSYS">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DMSYS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>38</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDPLUGINS">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="MDSYS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="OLAPSYS">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="MDDATA">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="SYSMAN">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="MGMT_VIEW">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SCOTT">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="HR">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="OE">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="IX">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SH">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="PM">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="BI">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <table id="31" parent="2" name="MEMBER">
+      <ObjectId>52547</ObjectId>
+      <CreatedTimestamp>2020-06-05.00:16:16</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:16:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="32" parent="2" name="ORDERS">
+      <ObjectId>52551</ObjectId>
+      <CreatedTimestamp>2020-06-05.00:17:05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:17:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="33" parent="2" name="ORDER_TRAVELLER">
+      <ObjectId>52554</ObjectId>
+      <CreatedTimestamp>2020-06-05.00:17:28</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:17:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="34" parent="2" name="PERMISSION">
+      <ObjectId>52563</ObjectId>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="35" parent="2" name="PRODUCT">
+      <ObjectId>52544</ObjectId>
+      <CreatedTimestamp>2020-06-04.02:35:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-04.02:35:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="36" parent="2" name="ROLE">
+      <ObjectId>52559</ObjectId>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="37" parent="2" name="ROLE_PERMISSION">
+      <ObjectId>52565</ObjectId>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="38" parent="2" name="SYSLOG">
+      <ObjectId>52720</ObjectId>
+      <CreatedTimestamp>2020-06-10.03:49:46</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-10.03:49:46</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="39" parent="2" name="TRAVELLER">
+      <ObjectId>52549</ObjectId>
+      <CreatedTimestamp>2020-06-05.00:16:49</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:16:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="40" parent="2" name="USERS">
+      <ObjectId>52556</ObjectId>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-07.19:53:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="41" parent="2" name="USERS_ROLE">
+      <ObjectId>52561</ObjectId>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="42" parent="31" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="43" parent="31" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="44" parent="31" name="NICKNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="45" parent="31" name="PHONENUM">
+      <Position>4</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="46" parent="31" name="EMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <index id="47" parent="31" name="SYS_C005396">
+      <ObjectId>52548</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.00:16:16</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:16:16</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="31" name="SYS_C005396">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:16:16</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005396</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="49" parent="32" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="50" parent="32" name="ORDERNUM">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="32" name="ORDERTIME">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+    </column>
+    <column id="52" parent="32" name="PEOPLECOUNT">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="53" parent="32" name="ORDERDESC">
+      <Position>5</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+    </column>
+    <column id="54" parent="32" name="PAYTYPE">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="55" parent="32" name="ORDERSTATUS">
+      <Position>7</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="56" parent="32" name="PRODUCTID">
+      <Position>8</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+    </column>
+    <column id="57" parent="32" name="MEMBERID">
+      <Position>9</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+    </column>
+    <index id="58" parent="32" name="SYS_C005399">
+      <ObjectId>52552</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.00:17:05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:17:05</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="59" parent="32" name="SYS_C005400">
+      <ObjectId>52553</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.00:17:05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:17:05</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ORDERNUM</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="32" name="SYS_C005399">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:17:05</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005399</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="61" parent="32" name="SYS_C005400">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:17:05</ModifiedTimestamp>
+      <ColNames>ORDERNUM</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005400</UnderlyingIndexName>
+    </key>
+    <foreign-key id="62" parent="32" name="SYS_C005401">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:17:05</ModifiedTimestamp>
+      <ColNames>PRODUCTID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>PRODUCT</RefTableName>
+      <RefKeyName>SYS_C005394</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="63" parent="32" name="SYS_C005402">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:17:05</ModifiedTimestamp>
+      <ColNames>MEMBERID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>MEMBER</RefTableName>
+      <RefKeyName>SYS_C005396</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="64" parent="33" name="ORDERID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="33" name="TRAVELLERID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="66" parent="33" name="SYS_C005403">
+      <ObjectId>52555</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.00:17:28</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:17:28</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ORDERID
+TRAVELLERID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="33" name="SYS_C005403">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:17:28</ModifiedTimestamp>
+      <ColNames>ORDERID
+TRAVELLERID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005403</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="33" name="SYS_C005404">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:17:28</ModifiedTimestamp>
+      <ColNames>ORDERID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>ORDERS</RefTableName>
+      <RefKeyName>SYS_C005399</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="69" parent="33" name="SYS_C005405">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:17:28</ModifiedTimestamp>
+      <ColNames>TRAVELLERID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>TRAVELLER</RefTableName>
+      <RefKeyName>SYS_C005397</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="70" parent="34" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="71" parent="34" name="PERMISSIONNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="72" parent="34" name="URL">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <index id="73" parent="34" name="SYS_C005413">
+      <ObjectId>52564</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="34" name="SYS_C005413">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005413</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="35" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="76" parent="35" name="PRODUCTNUM">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="35" name="PRODUCTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="78" parent="35" name="CITYNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="79" parent="35" name="DEPARTURETIME">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+    </column>
+    <column id="80" parent="35" name="PRODUCTPRICE">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="81" parent="35" name="PRODUCTDESC">
+      <Position>7</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+    </column>
+    <column id="82" parent="35" name="PRODUCTSTATUS">
+      <Position>8</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="83" parent="35" name="PRODUCT">
+      <ObjectId>52546</ObjectId>
+      <CreatedTimestamp>2020-06-04.02:35:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-04.02:35:23</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID
+PRODUCTNUM</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="84" parent="35" name="SYS_C005394">
+      <ObjectId>52545</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-04.02:35:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-04.02:35:23</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="85" parent="35" name="SYS_C005394">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-04.02:35:23</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005394</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="86" parent="35" name="PRODUCT">
+      <ModifiedTimestamp>2020-06-04.02:35:23</ModifiedTimestamp>
+      <ColNames>ID
+PRODUCTNUM</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PRODUCT</UnderlyingIndexName>
+    </key>
+    <column id="87" parent="36" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="88" parent="36" name="ROLENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="89" parent="36" name="ROLEDESC">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <index id="90" parent="36" name="SYS_C005409">
+      <ObjectId>52560</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="36" name="SYS_C005409">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005409</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="92" parent="37" name="PERMISSIONID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="37" name="ROLEID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="94" parent="37" name="SYS_C005414">
+      <ObjectId>52566</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PERMISSIONID
+ROLEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="95" parent="37" name="SYS_C005414">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>PERMISSIONID
+ROLEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005414</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="96" parent="37" name="SYS_C005415">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>PERMISSIONID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>PERMISSION</RefTableName>
+      <RefKeyName>SYS_C005413</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="97" parent="37" name="SYS_C005416">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>ROLEID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>ROLE</RefTableName>
+      <RefKeyName>SYS_C005409</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="98" parent="38" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="99" parent="38" name="VISITTIME">
+      <Position>2</Position>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+    </column>
+    <column id="100" parent="38" name="USERNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="101" parent="38" name="IP">
+      <Position>4</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="102" parent="38" name="URL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="103" parent="38" name="EXECUTIONTIME">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="104" parent="38" name="METHOD">
+      <Position>7</Position>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <index id="105" parent="38" name="SYS_C005444">
+      <ObjectId>52721</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-10.03:49:46</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-10.03:49:46</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="106" parent="38" name="SYS_C005444">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-10.03:49:46</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005444</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="107" parent="39" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="108" parent="39" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="109" parent="39" name="SEX">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="110" parent="39" name="PHONENUM">
+      <Position>4</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="111" parent="39" name="CREDENTIALSTYPE">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="112" parent="39" name="CREDENTIALSNUM">
+      <Position>6</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="113" parent="39" name="TRAVELLERTYPE">
+      <Position>7</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="114" parent="39" name="SYS_C005397">
+      <ObjectId>52550</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.00:16:49</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.00:16:49</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="115" parent="39" name="SYS_C005397">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.00:16:49</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005397</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="116" parent="40" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYS_GUID()</DefaultExpression>
+    </column>
+    <column id="117" parent="40" name="EMAIL">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="40" name="USERNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="119" parent="40" name="PASSWORD">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="120" parent="40" name="PHONENUM">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="121" parent="40" name="STATUS">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="122" parent="40" name="SYS_C005407">
+      <ObjectId>52557</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="123" parent="40" name="SYS_C005408">
+      <ObjectId>52558</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMAIL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="124" parent="40" name="SYS_C005407">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005407</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="125" parent="40" name="SYS_C005408">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>EMAIL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005408</UnderlyingIndexName>
+    </key>
+    <column id="126" parent="41" name="USERID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="41" name="ROLEID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="128" parent="41" name="SYS_C005410">
+      <ObjectId>52562</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-06-05.23:23:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USERID
+ROLEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="129" parent="41" name="SYS_C005410">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>USERID
+ROLEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005410</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="130" parent="41" name="SYS_C005411">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>USERID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>SYS_C005407</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="131" parent="41" name="SYS_C005412">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-06-05.23:23:35</ModifiedTimestamp>
+      <ColNames>ROLEID</ColNames>
+      <RefSchemaName>SSM</RefSchemaName>
+      <RefTableName>ROLE</RefTableName>
+      <RefKeyName>SYS_C005409</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

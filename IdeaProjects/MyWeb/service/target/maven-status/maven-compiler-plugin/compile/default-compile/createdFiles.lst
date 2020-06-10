@@ -1,0 +1,12 @@
+lq/myWeb/service/IProductService.class
+lq/myWeb/service/impl/OrdersService.class
+lq/myWeb/service/IPermissionService.class
+lq/myWeb/service/impl/UserService.class
+lq/myWeb/service/IOrdersService.class
+lq/myWeb/service/impl/PermissionService.class
+lq/myWeb/service/ISysLogService.class
+lq/myWeb/service/impl/ProductService.class
+lq/myWeb/service/IRoleService.class
+lq/myWeb/service/impl/SysLogService.class
+lq/myWeb/service/IUserService.class
+lq/myWeb/service/impl/RoleService.class

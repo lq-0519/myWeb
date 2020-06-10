@@ -1,0 +1,8 @@
+lq/myWeb/dao/IUserDao.class
+lq/myWeb/dao/IProductDao.class
+lq/myWeb/dao/IRoleDao.class
+lq/myWeb/dao/ITravellerDao.class
+lq/myWeb/dao/IOrdersDao.class
+lq/myWeb/dao/IMemberDao.class
+lq/myWeb/dao/ISysLogDao.class
+lq/myWeb/dao/IPermissionDao.class
